@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VARD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="js/slick_slider/slick-theme.css">
+  <link rel="stylesheet" href="js/slick_slider/slick.css">
+  <link rel="stylesheet" href="./css/main_b2b.css">
+</head>
+
+<body>
+
+
+  <div class="pop_entrance basic">
+    <div class="container">
+      <div class="pop_entrance_head">
+        <a href="#" class="pop_entrance_head_back">
+          <i></i>
+          <p>Назад</p>
+        </a>
+        <a href="/index.html" class="pop_entrance_head_logo"></a>
+      </div>
+    </div>
+    <div class="pop_entrance_box basic">
+      <div class="pop_entrance_box_tittle">Регистрация</div>
+      <div class="pop_entrance_box_basic_subtittle">Заполните поля и введите номер телефона,
+        мы отправим Вам СМС с кодом подтверждения</div>
+      <form action="#">
+        <span>Имя</span>
+        <input type="text" placeholder="Ваше имя" id="register_name">
+        <span>Фамилия</span>
+        <input type="text" placeholder="Введите Вашу фамилию" id="register_surname">
+        <span>Введите номер телефона</span>
+        <input type="text" placeholder="Ваш номер телефона" id="register_phone">
+        <div class="pop_entrance_box_basic_explanation">Мы отправим на него код подтверждения</div>
+        <span>Введите адрес электронной почты</span><span class="pop_entrance_box_register_successful">(не обязательно)</span>
+        <input type="text" placeholder="Ваш e-mail" id="register_email">
+        <div class="pop_entrance_box_basic_agreement">
+          <div class="pop_entrance_box_basic_agreement_inp">
+            <input type="checkbox" id="basic_register_agreement">
+            <label for="basic_register_agreement"></label>
+          </div>
+          <p>Согласен на обработку персональных данных и условия купли-продажи</p>
+        </div>
+        <input type="submit" value="Далее" id="register_submit">
+        <p class="pop_entrance_box_error" id="register_error"></p>
+        <a href="#" class="pop_entrance_box_register">
+           Войти
+        </a>
+      </form>
+    </div>
+    <div class="pop_entrance_footer">
+      <span></span>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script src="./js/entarnce.js"></script>
+</body>
+
+</html>
