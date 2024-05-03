@@ -7,6 +7,9 @@
   width: 100%;
   justify-content: space-between;
 }
+.all_equipment .container .all_equipment_box:nth-child(2), .all_equipment .container .all_equipment_box:nth-child(3) {
+  margin-top: 16px;
+}
 
 .header_top_call_link {
   color: rgba(128, 133, 136, 1);
@@ -568,6 +571,11 @@ section.gray {
   flex-shrink: 0;
   margin: 0px;
 }
+
+.all_equipment_box_second_box {
+  width: calc(33.3% - 8px);
+}
+
 
 .all_equipment_box_second_itemBig p,
 .all_equipment_box_second_box_top_item p {
@@ -1265,7 +1273,7 @@ section.gray {
   padding: 20px;
 }
 
-.all_equipment .all_equipment_box:nth-child(2) {
+.all_equipment .all_equipment_box:nth-child(2), .all_equipment .all_equipment_box:nth-child(3) {
   height: 200px;
 }
 
@@ -1298,15 +1306,15 @@ section.gray {
 }
 
 .all_equipment_box_second_box .all_equipment_box_second_box_top:nth-child(1) .all_equipment_box_second_box_top_item:nth-child(1) a {
-  background-image: url(/img/img/all_equipment/vinnsh.jpg);
+  background-image: url(/img/img/all_equipment/varoch.png);
 }
 
 .all_equipment_box_second_box .all_equipment_box_second_box_top:nth-child(1) .all_equipment_box_second_box_top_item:nth-child(2) a {
-  background-image: url(/img/img/all_equipment/varoch.jpg);
+  background-image: url(/img/img/all_equipment/varoch.png);
 }
 
 .all_equipment_box_second_box .all_equipment_box_second_box_top:nth-child(2) .all_equipment_box_second_box_top_item:nth-child(1) a {
-  background-image: url(/img/img/all_equipment/vityjka.jpg);
+  background-image: url(/img/img/all_equipment/kofemashi.jpg);
   background-size: 180%;
 }
 
@@ -1320,15 +1328,27 @@ section.gray {
 }
 
 .all_equipment_box .all_equipment_box_third:nth-child(1) .all_equipment_box_third_top .all_equipment_box_third_top_item:nth-child(2) {
-  background-image: url(/img/img/all_equipment/posuda.jpg);
+  background-image: url(/img/img/all_equipment/vitjajki.png);
 }
 
 .all_equipment_box .all_equipment_box_third:nth-child(2) .all_equipment_box_third_top .all_equipment_box_third_top_item:nth-child(1) {
-  background-image: url(/img/img/all_equipment/stiralka.jpg);
+  background-image: url(/img/img/all_equipment/vashing-mashina.png);
 }
 
 .all_equipment_box .all_equipment_box_third:nth-child(2) .all_equipment_box_third_top .all_equipment_box_third_top_item:nth-child(2) {
   background-image: url(/img/img/all_equipment/sushi.jpg);
+}
+.all_equipment .all_equipment_box:nth-child(3) .all_equipment_box_third:nth-child(1) .all_equipment_box_third_top .all_equipment_box_third_top_item:nth-child(1) {
+  background-image: url(/img/img/all_equipment/stiralka.jpg);
+}
+.all_equipment .all_equipment_box:nth-child(3) .all_equipment_box_third:nth-child(1) .all_equipment_box_third_top .all_equipment_box_third_top_item:nth-child(2) {
+  background-image: url(/img/img/all_equipment/electrik_panel.png);
+}
+.all_equipment .all_equipment_box:nth-child(3) .all_equipment_box_third:nth-child(2) .all_equipment_box_third_top .all_equipment_box_third_top_item:nth-child(1) {
+  background-image: url(/img/img/all_equipment/gazo-panel.png);
+}
+.all_equipment .all_equipment_box:nth-child(3) .all_equipment_box_third:nth-child(2) .all_equipment_box_third_top .all_equipment_box_third_top_item:nth-child(2) {
+  background-image: url(/img/img/all_equipment/vinish.png);
 }
 
 
@@ -1352,7 +1372,7 @@ section.gray {
 }
 
 .all_equipment_box_second_itemBig {
-  width: calc(50% - 8px);
+  width: calc(33.3% - 8px);
   height: 100%;
   background-image: none;
 }
@@ -1375,11 +1395,11 @@ section.gray {
 
 .all_equipment_box_third_top .all_equipment_box_third_top_item {
   transition: .5s;
-  background-size: 190%;
+  background-size: 100%;
 }
 
 .all_equipment_box_third_top .all_equipment_box_third_top_item:hover {
-  background-size: 210%;
+  background-size: 130%;
 }
 
 @media (max-width: 1360px) {
@@ -1457,13 +1477,13 @@ section.gray {
     justify-content: space-between;
     column-gap: 16px;
     height: 200px;
-  }
+}
 
   .all_equipment_box_second_box_top_item {
-    width: calc(50% - 8px);
+    width: 100%;
   }
 
-  .all_equipment .all_equipment_box:nth-child(2) {
+  .all_equipment .all_equipment_box:nth-child(2), .all_equipment .all_equipment_box:nth-child(3) {
     height: 426px;
     flex-wrap: wrap;
   }
@@ -1471,6 +1491,10 @@ section.gray {
   .all_equipment .container .all_equipment_box:nth-child(2) {
     margin-top: 0px;
   }
+  .all_equipment .container .all_equipment_box:nth-child(2), .all_equipment .container .all_equipment_box:nth-child(3) {
+    margin-top: 0px;
+  }
+  
 
   .all_equipment_box_third {
     width: 100%;
@@ -1590,10 +1614,10 @@ section.gray {
   }
 
   .all_equipment_box_second_box_top_item {
-    width: calc(50% - 8px);
+    width: 100%;
   }
 
-  .all_equipment .all_equipment_box:nth-child(2) {
+  .all_equipment .all_equipment_box:nth-child(2), .all_equipment .all_equipment_box:nth-child(3) {
     height: 426px;
     flex-wrap: wrap;
   }
@@ -1766,7 +1790,7 @@ section.gray {
     border: 20px solid #fbfbfb;
   }
 
-  .all_equipment .all_equipment_box:nth-child(2) {
+  .all_equipment .all_equipment_box:nth-child(2), .all_equipment .all_equipment_box:nth-child(3) {
     flex-direction: column;
     height: 416px;
   }
@@ -1808,6 +1832,12 @@ section.gray {
     flex-direction: column;
     justify-content: space-between;
   }
+  .all_equipment .container .all_equipment_box:nth-child(2) {
+    margin-top: 8px;
+}
+ .all_equipment .container .all_equipment_box:nth-child(3) {
+  margin-top: 16px;
+}
 }
 
 @media (max-width: 600px) {
@@ -1893,7 +1923,7 @@ section.gray {
     width: calc(50% - 5px);
   }
 
-  .all_equipment .all_equipment_box:nth-child(2) {
+  .all_equipment .all_equipment_box:nth-child(2), .all_equipment .all_equipment_box:nth-child(3) {
     flex-direction: column;
     height: 310px;
   }
@@ -1969,7 +1999,7 @@ section.gray {
   }
 
   .all_equipment_box_second_box_top_item {
-    width: calc(50% - 5px);
+    width: 100%
   }
 
   .all_equipment_box_second_itemBig p,
@@ -2012,6 +2042,17 @@ section.gray {
     align-items: center;
     height: 165px;
   }
+  .all_equipment .container .all_equipment_box:nth-child(3) {
+    margin-top: 8px;
+}
+.all_equipment_box_third_top .all_equipment_box_third_top_item {
+  transition: .5s;
+  background-size: 150%;
+}
+.all_equipment_box_third_top .all_equipment_box_third_top_item:hover {
+  transition: .5s;
+  background-size: 180%;
+}
 
 }
 
