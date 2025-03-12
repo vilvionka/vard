@@ -325,7 +325,7 @@
 }
 
 .controlCompany_slider_arrows_next {
-  display: none;
+  display: none !important;
 }
 
 .controlCompany_slider_arrows_prew:hover, .controlCompany_slider_arrows_next:hover {
@@ -873,7 +873,7 @@
     z-index: 5;
   }
   .controlCompany_slider_arrows_next{
-    display: flex;
+    display: flex !important;
     margin-left: 15px;
   }
   .controlCompany_slider_arrows_prew{
