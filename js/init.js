@@ -430,3 +430,15 @@ $(function () {
 
   var accordion = new Accordion($('.support_wrap_accordion'), false);
 });
+
+$('.controlCompany_slider').slick({
+  dots: false,
+  arrows: true,
+  prevArrow: $('.controlCompany_slider_arrows_next'),
+  nextArrow: $('.controlCompany_slider_arrows_prew'),
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: false,
+  variableWidth: true
+})

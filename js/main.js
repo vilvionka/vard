@@ -12,10 +12,7 @@
 })();
 
 window.onload = function () {
-  //if (localStorage.getItem('presentVard') == 'present') {
-  //  document.body.classList.add('loaded_hidden');
-  //   return;
-  // }
+
 
   const canvas = document.querySelector('#canvas1');
   if (canvas) {
@@ -1514,6 +1511,30 @@ if (btnMoreNewsToo) {
   if (closeContact) {
     closeContact.addEventListener('click', function () {
       popContact.classList.remove('active');
+      document.body.classList.remove('noScroll');
+    })
+  }
+
+})();
+
+
+// pop controlCompany
+(() => {
+
+  let butcontrolCompany = document.querySelector('.js_controlCompany_button');
+  let popcontrolCompany = document.querySelector('.js_pop_controlCompany');
+  let closecontrolCompany = document.querySelector('.js_pop_controlCompany_close');
+
+  if (butcontrolCompany) {
+    butcontrolCompany.addEventListener('click', function () {
+      popcontrolCompany.classList.add('active');
+      document.body.classList.add('noScroll');
+    })
+
+  }
+  if (closecontrolCompany) {
+    closecontrolCompany.addEventListener('click', function () {
+      popcontrolCompany.classList.remove('active');
       document.body.classList.remove('noScroll');
     })
   }
